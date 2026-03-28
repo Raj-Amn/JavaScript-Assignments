@@ -6,3 +6,11 @@
 //  - HH:MM::SS (Eg. 13:45:23)
 
 //  - HH:MM::SS AM/PM (Eg 01:45:23 PM)
+//
+//
+//
+//
+
+setInterval(()=>{
+  console.log(new Date().toLocaleTimeString());
+},1000)
